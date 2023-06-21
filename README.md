@@ -21,7 +21,7 @@ ObjectionPro is a powerful objection handling tool designed to assist sales prof
 1. Clone the ObjectionPro repository.
 
 
-git clone https://github.com/your-username/ObjectionPro.git
+git clone https://github.com/jeromedawson/ObjectionPro.git
 
 Install the necessary dependencies by running the following command:
 
