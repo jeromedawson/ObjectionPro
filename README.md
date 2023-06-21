@@ -1,4 +1,5 @@
 ObjectionPro
+
 ObjectionPro is a powerful objection handling tool designed to assist sales professionals in effectively addressing objections during sales calls. By providing pre-written rebuttals and advanced features, ObjectionPro helps salespeople handle objections with confidence and close more deals.
 
 Key Features
