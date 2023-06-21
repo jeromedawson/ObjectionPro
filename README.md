@@ -24,7 +24,7 @@ SalesObjectionPro is a powerful objection handling tool designed to assist sales
 1. Clone the SalesObjectionPro repository.
 
 
-git clone https://github.com/your-username/SalesObjectionPro.git
+git clone https://github.com/jeromedawsone/ObjectionPro.git
 
 Install the necessary dependencies by running the following command:
 
