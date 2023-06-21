@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name": "Sales Objection Rebuttal",
+  "version": "1.0",
+  "description": "A Chrome extension that provides objection rebuttals for salespeople. Access the rebuttals by clicking on the extension icon in the browser toolbar.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "storage" // Required permission to store data
+  ],
+  "background": {
+    "scripts": ["background.js"], // Script that runs in the background
+    "persistent": false // Background script is not persistent
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"], // Add URLs where the extension should be active
+      "js": ["content.js"], // Script injected into web pages
+      "run_at": "document_idle" // Run the script when the document has finished loading
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html", // Set the default popup HTML for the browser action
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "options_page": "options.html", // Set the options page HTML
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

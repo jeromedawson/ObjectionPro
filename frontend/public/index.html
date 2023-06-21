@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SalesObjectionPro - Objection Handling Tool</title>
+  <link rel="icon" href="path/to/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <style>
+    /* Custom styles for loading state */
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-size: 24px;
+    }
+
+    /* Custom styles for error handling */
+    .error {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-size: 24px;
+      color: red;
+    }
+
+    /* Media queries for responsive design */
+    @media (max-width: 768px) {
+      /* Add specific styles for smaller screens */
+    }
+  </style>
+  <meta name="description" content="A web application for sales professionals to effectively address objections during sales calls.">
+  <meta property="og:title" content="SalesObjectionPro - Objection Handling Tool">
+  <meta property="og:description" content="A web application for sales professionals to effectively address objections during sales calls.">
+  <meta property="og:image" content="https://example.com/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body>
+  <header>
+    <h1>SalesObjectionPro</h1>
+    <nav>
+      <ul>
+        <li><a href="/">Objections</a></li>
+        <li><a href="/scripts">Scripts</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div id="root">
+      <!-- Add loading state or spinner -->
+      <div class="loading">
+        Loading...
+      </div>
+
+      <!-- Add error handling content -->
+      <div class="error">
+        An error occurred while loading.
+      </div>
+    </div>
+  </div>
+
+  <script src="path/to/vendors~main.js"></script>
+  <script src="path/to/main.js"></script>
+  <script>
+    // JavaScript logic for handling loading state and error handling
+    const rootElement = document.getElementById('root');
+
+    // Show loading state
+    rootElement.classList.add('loading');
+
+    // Simulate an error
+    // setTimeout(() => {
+    //   rootElement.classList.remove('loading');
+    //   rootElement.classList.add('error');
+    // }, 2000);
+  </script>
+</body>
+
+</html>
