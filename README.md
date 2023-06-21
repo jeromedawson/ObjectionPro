@@ -1,9 +1,9 @@
 # ObjectionPro
 ObjectionPro: Empower sales professionals with a robust objection handling tool. Pre-written rebuttals, customizable objection types, script management, and objection tracking. Boost sales success.
 
-# SalesObjectionPro
+# ObjectionPro
 
-SalesObjectionPro is a powerful objection handling tool designed to assist sales professionals in effectively addressing objections during sales calls. By providing pre-written rebuttals and advanced features, SalesObjectionPro helps salespeople handle objections with confidence and close more deals.
+ObjectionPro is a powerful objection handling tool designed to assist sales professionals in effectively addressing objections during sales calls. By providing pre-written rebuttals and advanced features, ObjectionPro helps salespeople handle objections with confidence and close more deals.
 
 ## Key Features
 
@@ -11,17 +11,17 @@ SalesObjectionPro is a powerful objection handling tool designed to assist sales
 
 - **Quick Search:** The tool offers a quick search functionality that enables users to find specific objections instantly during sales calls. The search feature is efficient, responsive, and provides real-time feedback as users type their search queries.
 
-- **Script Management:** SalesObjectionPro allows users to save pre-written scripts for calling. Users can categorize scripts into tabs, add new scripts, edit existing ones, and delete scripts as needed. This feature ensures sales professionals have their scripts organized and readily available for different scenarios.
+- **Script Management:** ObjectionPro allows users to save pre-written scripts for calling. Users can categorize scripts into tabs, add new scripts, edit existing ones, and delete scripts as needed. This feature ensures sales professionals have their scripts organized and readily available for different scenarios.
 
 - **Common Objections Tracking:** The tool includes a separate tab for tracking and analyzing common objections. This feature helps sales professionals identify recurring objections, understand trends, and refine their sales strategies accordingly.
 
 - **Database Storage:** Objection and rebuttal pairs, as well as scripts, are stored in a database for scalability and flexibility. This enables efficient retrieval and management of data, ensuring that objection handling information is always accessible.
 
-- **User-Friendly Interface:** SalesObjectionPro provides an intuitive, visually appealing, and easy-to-navigate user interface. Objections and rebuttals can be displayed in a grid or list view with collapsible sections. Users can perform actions like adding, editing, and deleting objection-rebuttal pairs to tailor the tool to their specific needs.
+- **User-Friendly Interface:** ObjectionPro provides an intuitive, visually appealing, and easy-to-navigate user interface. Objections and rebuttals can be displayed in a grid or list view with collapsible sections. Users can perform actions like adding, editing, and deleting objection-rebuttal pairs to tailor the tool to their specific needs.
 
 ## Installation
 
-1. Clone the SalesObjectionPro repository.
+1. Clone the ObjectionPro repository.
 
 
 git clone https://github.com/jeromedawson/ObjectionPro.git
@@ -48,7 +48,7 @@ The objection handling tool will be accessible locally at http://localhost:3000.
 
 Usage
 
-Access the SalesObjectionPro web app through the provided URL or locally at http://localhost:3000.
+Access the ObjectionPro web app through the provided URL or locally at http://localhost:3000.
 Customize objection types, add rebuttals, and manage scripts using the user-friendly interface. Organize objections into categories for easy navigation.
 Utilize the powerful search feature to quickly find specific objections during sales calls, ensuring you have the right response at your fingertips.
 Analyze common objections in the dedicated tab to refine your sales strategies and improve objection handling skills.
@@ -56,9 +56,9 @@ Analyze common objections in the dedicated tab to refine your sales strategies a
 
 Contributing
 
-Contributions to SalesObjectionPro are welcome! Please refer to the guidelines in CONTRIBUTING.md for more information on how to contribute to the project.
+Contributions to ObjectionPro are welcome! Please refer to the guidelines in CONTRIBUTING.md for more information on how to contribute to the project.
 
 
 License
 
-SalesObjectionPro is licensed under the MIT License.
+ObjectionPro is licensed under the MIT License.
