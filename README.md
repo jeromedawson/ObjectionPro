@@ -15,26 +15,32 @@ Database Storage: Store objection-rebuttal pairs and scripts in a database for s
 User-Friendly Interface: Enjoy an intuitive, visually appealing, and easy-to-navigate interface. Objections and rebuttals can be displayed in a grid or list view with collapsible sections. Perform actions like adding, editing, and deleting objection-rebuttal pairs to tailor the tool to your needs.
 
 Installation
-Clone the ObjectionPro repository.
+Clone the ObjectionPro repository:
 
 bash
 Copy code
 git clone https://github.com/jeromedawson/ObjectionPro.git
-Install the necessary dependencies by running the following command:
+Install the necessary dependencies:
 
 Copy code
 npm install
-Set up the environment variables required for the tool by creating an .env file at the root of the project. Refer to the provided documentation for the required environment variables.
+Set up the required environment variables by creating an .env file at the root of the project. Refer to the provided documentation for the required variables.
 
-Start the development server by running the following command:
+Start the development server:
 
 sql
 Copy code
 npm start
-The objection handling tool will be accessible locally at http://localhost:3000.
+Access the ObjectionPro web app locally at http://localhost:3000.
 
 Usage
-Access the ObjectionPro web app through the provided URL or locally at http://localhost:3000. Customize objection types, add rebuttals, and manage scripts using the user-friendly interface. Organize objections into categories for easy navigation. Utilize the powerful search feature to quickly find specific objections during sales calls, ensuring you have the right response at your fingertips. Analyze common objections in the dedicated tab to refine your sales strategies and improve objection handling skills.
+Customize objection types, add rebuttals, and manage scripts using the user-friendly interface.
+
+Organize objections into categories for easy navigation.
+
+Utilize the powerful search feature to find specific objections during sales calls.
+
+Analyze common objections in the dedicated tab to refine sales strategies.
 
 Contributing
 Contributions to ObjectionPro are welcome! Please refer to the guidelines in CONTRIBUTING.md for more information on how to contribute to the project.
